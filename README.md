@@ -4,8 +4,8 @@ A teriminal vim color scheme derived from the [RailsCasts](http://railscasts.com
 
 ## Installation
 
-Install any vim plugin manager and then add this as a plugin to your ```.vimrc```.
+Install any vim plugin manager (e.g. [vim-plug](https://github.com/junegunn/vim-plug)) and then add this as a plugin to your ```.vimrc```.
 
 ```vim
-Plugin 'mushanyoung/vim-windflower'
+Plug 'mushanyoung/vim-windflower'
 ```
