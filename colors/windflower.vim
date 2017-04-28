@@ -15,33 +15,15 @@ hi LineNr                    ctermfg=242
 hi Cursor                    ctermfg=000 ctermbg=015
 hi CursorLine                ctermbg=235 cterm=none
 hi CursorLineNr              ctermfg=248
-hi VertSplit                 ctermfg=238 ctermbg=233
+hi VertSplit                 ctermfg=238 ctermbg=238
 hi SignColumn                ctermfg=015
-hi ColorColumn               ctermbg=234
-hi! link CursorColumn ColorColumn
-
-" StatusLine
-hi User1                     ctermfg=255 ctermbg=241
-hi User2                     ctermfg=214 ctermbg=241
-hi User3                     ctermfg=082 ctermbg=241
-hi User4                     ctermfg=088 ctermbg=241
-hi User5                     ctermfg=254 ctermbg=241
-hi User6                     ctermfg=254 ctermbg=241
-hi User7                     ctermfg=254 ctermbg=241
-hi User8                     ctermfg=254 ctermbg=241
-hi User9                     ctermfg=254 ctermbg=241
-hi StatusLine                ctermfg=254 ctermbg=241
-hi StatusLineNC              ctermfg=240 ctermbg=236
-
-" Folds
+hi FoldColumn                ctermfg=015
+hi ColorColumn               ctermbg=235
+hi CursorColumn              ctermbg=235
 hi Folded                    ctermfg=015 ctermbg=238
-hi! link FoldColumn SignColumn
-
-" Invisible Characters
 hi NonText                   ctermfg=243
 hi SpecialKey                ctermfg=243
-
-" Misc
+hi Special                   ctermfg=022
 hi Directory                 ctermfg=030
 
 " Popup Menu
@@ -49,6 +31,16 @@ hi Pmenu                     ctermfg=015 ctermbg=238
 hi PmenuSel                  ctermfg=000 ctermbg=107
 hi PMenuSbar                 ctermfg=015 ctermbg=060
 hi PMenuThumb                ctermfg=015 ctermbg=248
+
+" Status Line
+hi User1                     ctermfg=255 ctermbg=241
+hi User2                     ctermfg=214 ctermbg=241
+hi User3                     ctermfg=082 ctermbg=241
+hi User4                     ctermfg=088 ctermbg=241
+hi User5                     ctermfg=254 ctermbg=241
+hi User6                     ctermfg=254 ctermbg=241
+hi StatusLine                ctermfg=254 ctermbg=241
+hi StatusLineNC              ctermfg=240 ctermbg=236
 
 " Code constructs
 hi Comment                   ctermfg=137
@@ -77,7 +69,6 @@ hi Operator                  ctermfg=247
 hi Delimiter                 ctermfg=247
 hi Title                     ctermfg=172
 hi Exception                 ctermfg=088
-hi Special                   ctermfg=022
 
 " Diffs
 hi DiffAdd                   ctermfg=254 ctermbg=022
@@ -89,6 +80,30 @@ hi diffAdded                 ctermfg=028
 hi diffRemoved               ctermfg=001
 hi diffNewFile               ctermfg=015 cterm=underline
 hi diffFile                  ctermfg=015 cterm=underline
+
+" Mail
+hi mailEmail                 ctermfg=107 cterm=underline
+hi mailHeaderKey             ctermfg=221
+hi mailSubject               ctermfg=221
+
+" Spell
+hi SpellBad                  ctermfg=160 cterm=underline
+hi SpellRare                 ctermfg=168 cterm=underline
+hi SpellCap                  ctermfg=189 cterm=underline
+hi SpellLocal                ctermfg=051 cterm=underline
+hi MatchParen                ctermfg=015 ctermbg=023
+
+" XML & HTML
+hi xmlTag                    ctermfg=179
+hi xmlTagName                ctermfg=179
+hi xmlEndTag                 ctermfg=179
+hi htmlTag                   ctermfg=179
+hi htmlTagName               ctermfg=179
+hi htmlEndTag                ctermfg=179
+
+hi checkbox                  ctermfg=237
+hi checkboxDone              ctermfg=082 cterm=underline
+hi checkboxNotDone           ctermfg=026 cterm=underline
 
 " Ruby
 hi rubyTodo                  ctermfg=167
@@ -106,27 +121,3 @@ hi rubyLocalVariableOrMethod ctermfg=189
 hi pythonExceptions          ctermfg=216
 hi pythonDoctest             ctermfg=105
 hi pythonDoctestValue        ctermfg=115
-
-" Mail
-hi mailEmail                 ctermfg=107 cterm=underline
-hi mailHeaderKey             ctermfg=221
-hi! link mailSubject mailHeaderKey
-
-" Spell
-hi SpellBad                  ctermfg=160 cterm=underline
-hi SpellRare                 ctermfg=168 cterm=underline
-hi SpellCap                  ctermfg=189 cterm=underline
-hi SpellLocal                ctermfg=051 cterm=underline
-hi MatchParen                ctermfg=015 ctermbg=023
-
-" XML & HTML
-hi xmlTag                    ctermfg=179
-hi xmlTagName                ctermfg=179
-hi xmlEndTag                 ctermfg=179
-hi! link htmlTag             xmlTag
-hi! link htmlTagName         xmlTagName
-hi! link htmlEndTag          xmlEndTag
-
-hi checkbox                  ctermfg=237
-hi checkboxDone              ctermfg=082 cterm=underline
-hi checkboxNotDone           ctermfg=026 cterm=underline
