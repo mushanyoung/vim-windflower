@@ -13,7 +13,7 @@ hi Search                    ctermfg=000 ctermbg=060
 hi Visual                    ctermbg=060
 hi LineNr                    ctermfg=242
 hi Cursor                    ctermfg=000 ctermbg=015
-hi CursorLine                ctermbg=234 cterm=none
+hi CursorLine                ctermbg=235 cterm=none
 hi CursorLineNr              ctermfg=248
 hi VertSplit                 ctermfg=238 ctermbg=233
 hi SignColumn                ctermfg=015
