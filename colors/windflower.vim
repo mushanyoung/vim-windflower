@@ -105,6 +105,24 @@ hi checkbox                  ctermfg=237
 hi checkboxDone              ctermfg=082 cterm=underline
 hi checkboxNotDone           ctermfg=026 cterm=underline
 
+" C & CPP
+hi cppAccess                 ctermfg=202
+hi cppStatement              ctermfg=131
+
+hi cCustomClass              ctermfg=064
+hi cCustomOperator           ctermfg=247
+hi cCustomFunc               ctermfg=214
+hi cCustomTemplateClass      ctermfg=038
+hi cCustomTemplateFunc       ctermfg=038
+hi cCustomTemplate           ctermfg=038
+hi cTemplateDeclare          ctermfg=038
+hi cTemplateOperatorDeclare  ctermfg=038
+
+hi cppSTLnamespace           ctermfg=064
+hi cppSTLbool                ctermfg=105
+hi cppSTLconstant            ctermfg=105
+hi cppSTLexception           ctermfg=105
+
 " Ruby
 hi rubyTodo                  ctermfg=167
 hi rubyClass                 ctermfg=015
