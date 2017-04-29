@@ -44,19 +44,22 @@ hi StatusLineNC              ctermfg=240 ctermbg=236
 
 " Code constructs
 hi Comment                   ctermfg=137
-hi Todo                      ctermfg=167 cterm=underline
+hi Todo                      ctermfg=166 ctermbg=236
 hi Error                     ctermfg=220 ctermbg=088
+hi Exception                 ctermfg=088
 hi WarningMsg                ctermfg=001
 
-hi Keyword                   ctermfg=130
 hi Statement                 ctermfg=130
+hi Keyword                   ctermfg=130
+hi StorageClass              ctermfg=130
+hi Constant                  ctermfg=130
+hi Structure                 ctermfg=130
 
 hi Type                      ctermfg=167
-hi Typedef                   ctermfg=202
-hi Constant                  ctermfg=208
+hi Typedef                   ctermfg=167
+
 hi PreProc                   ctermfg=208
-hi Macro                     ctermfg=202
-hi StorageClass              ctermfg=208
+hi Macro                     ctermfg=208
 
 hi Identifier                ctermfg=109
 hi Boolean                   ctermfg=110
@@ -68,7 +71,6 @@ hi Function                  ctermfg=221
 hi Operator                  ctermfg=247
 hi Delimiter                 ctermfg=247
 hi Title                     ctermfg=172
-hi Exception                 ctermfg=088
 
 " Diffs
 hi DiffAdd                   ctermfg=254 ctermbg=022
@@ -87,7 +89,7 @@ hi mailHeaderKey             ctermfg=221
 hi mailSubject               ctermfg=221
 
 " Spell
-hi SpellBad                  ctermfg=160 cterm=underline
+hi SpellBad                  ctermfg=160 ctermbg=none cterm=underline
 hi SpellRare                 ctermfg=168 cterm=underline
 hi SpellCap                  ctermfg=189 cterm=underline
 hi SpellLocal                ctermfg=051 cterm=underline
