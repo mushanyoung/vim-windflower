@@ -141,3 +141,7 @@ hi rubyLocalVariableOrMethod ctermfg=189
 hi pythonExceptions          ctermfg=216
 hi pythonDoctest             ctermfg=105
 hi pythonDoctestValue        ctermfg=115
+
+" Indent for nathanaelkane/vim-indent-guides
+hi IndentGuidesOdd           ctermbg=236
+hi IndentGuidesEven          ctermbg=238
