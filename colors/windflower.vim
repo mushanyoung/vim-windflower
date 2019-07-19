@@ -1,4 +1,4 @@
-" windflower: ravy terminal vim color scheme derived from railscasts
+" windflower: terminal vim color scheme derived from railscasts
 
 set background=dark
 hi clear
@@ -23,7 +23,7 @@ hi CursorColumn              ctermbg=235
 hi Folded                    ctermfg=015 ctermbg=238
 hi NonText                   ctermfg=243
 hi SpecialKey                ctermfg=243
-hi Special                   ctermfg=022
+hi Special                   ctermfg=029
 hi Directory                 ctermfg=030
 
 " Popup Menu
