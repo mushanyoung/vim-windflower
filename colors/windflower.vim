@@ -16,7 +16,7 @@ hi Cursor                    ctermfg=000 ctermbg=015
 hi CursorLine                ctermbg=235 cterm=none
 hi CursorLineNr              ctermfg=248
 hi VertSplit                 ctermfg=238 ctermbg=238
-hi SignColumn                ctermfg=015
+hi SignColumn                ctermfg=015 ctermbg=234
 hi FoldColumn                ctermfg=015
 hi ColorColumn               ctermbg=235
 hi CursorColumn              ctermbg=235
@@ -73,15 +73,15 @@ hi Delimiter                 ctermfg=247
 hi Title                     ctermfg=172
 
 " Diffs
-hi DiffAdd                   ctermfg=254 ctermbg=022
-hi DiffDelete                ctermfg=016 ctermbg=052 cterm=underline
-hi DiffChange                ctermfg=015 ctermbg=090
+hi DiffAdd                   ctermfg=002 ctermbg=022
+hi DiffDelete                ctermfg=001 ctermbg=052 cterm=underline
+hi DiffChange                ctermfg=004 ctermbg=017
 hi DiffText                  ctermfg=015 ctermbg=009 cterm=underline
 
-hi diffAdded                 ctermfg=028
-hi diffRemoved               ctermfg=001
-hi diffNewFile               ctermfg=015 cterm=underline
-hi diffFile                  ctermfg=015 cterm=underline
+hi diffAdded                 ctermfg=002 ctermbg=022
+hi diffRemoved               ctermfg=001 ctermbg=052 cterm=underline
+hi diffNewFile               ctermfg=015 ctermbg=009 cterm=underline
+hi diffFile                  ctermfg=015 ctermbg=009 cterm=underline
 
 " Mail
 hi mailEmail                 ctermfg=107 cterm=underline
